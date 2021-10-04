@@ -1,0 +1,304 @@
+{
+  "intents": [
+    {
+      
+      "tag": "hi",
+      "patterns": [
+        "Hi","hi"
+        
+      ],
+      "responses": [
+        "Hello,Welcome!\nI am CMRCET Enquery CHATBOT my name is AndyBot!\nType below CODE to know more:\n1.Location (LOC)\n2.Academics (ACD)\n3.Departments (DEPT)\n4.Plasements (PLAC)\n5.Examinations (EXAM)\n6.Co-curricular activities (CCA)\n7.Awards and Recognitions (AREC)\n8.About CMRCET (CMR)\n9.Contact(Con)\n"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+{
+      "tag": "CON",
+      "patterns": [
+        "CON"
+      ],
+      "responses": [
+        "9248727210"
+      ]
+    },
+    {
+      "tag": "LOC",
+      "patterns": [
+        "LOC"
+      ],
+      "responses": [
+        "Survey No. 69, Medchal Road, Kandlakoya Village, Hyderabad, Telangana, 501401"
+      ]
+    },
+    {
+      "tag": "DEPT",
+      "patterns": [
+        "DEPT"
+        
+      ],
+      "responses": [
+    
+        "1.CSE\n2.ECE\n3.EEE\n4.MECH\n5.CIVIL"
+      ]
+    },
+    {
+      "tag": "CSE",
+      "patterns": [
+        "CSE"
+      ],
+      "responses": [
+        "Course Name :Computer Science & Engineering\nIntake : 240\nCourse Fee : 100000/-"
+        
+      ]
+    },
+    {
+      "tag": "ECE",
+      "patterns": [
+        "ECE"
+
+      ],
+      "responses": [
+        "Course Name :Electronics & Communication Engineering\nIntake : 240\nCourse Fee : 100000/-"
+        
+      ]
+    },
+    {
+      "tag": "MECH",
+      "patterns": [
+        "MECH"
+
+      ],
+      "responses": [
+        "Course Name :Mechanical Engineering\nIntake : 60\nCourse Fee : 100000/-"
+        
+      ]
+    },
+    {
+      "tag": "EEE",
+      "patterns": [
+        "EEE"
+
+      ],
+      "responses": [
+        "Course Name :Electrical & Electronics Engineering\n Intake : 60\nCourse Fee : 100000/-"
+        
+      ]
+    },
+    {
+      "tag": "CIVIL",
+      "patterns": [
+        "CIVIL"
+
+      ],
+      "responses": [
+        "Course Name :Civil Engineering\n Intake : 60\nCourse Fee : 100000/-"
+        
+      ]
+    },
+    {
+      "tag": "PLAC",
+      "patterns": [
+        "PLAC"
+
+      ],
+      "responses":
+      [
+        "1.Placement Training (PTR)\n2.Placement Companies(PCOMP)"
+        
+        
+      ]
+    },
+    {
+      "tag": "PTR",
+      "patterns": [
+        "PTR"
+
+      ],
+      "responses":
+      [
+        
+        "PRE-PLACEMENT TRAINING PROGRAMMES CONDUCTED\nThe Training Program generally deals with all the aspects of soft skills required by any individual to face an interview process. The duration of the program is around 40hours in which the following aspects are dealt with\n->Aptitude (Arithmetic,Reasoning & Verbal)\n->Presentation Skills\n->Interpersonal & Behavioral Skills\n->Resume Building Skills\n->Group Discussion Skills\n->Interview Skills"
+        
+      ]
+    },
+    {
+      "tag": "PCOMP",
+      "patterns": [
+        "PCOMP"
+
+      ],
+      "responses":
+      [
+        "1. Deloitte\n2. Accenture\n3. TCS\n4. Capgemini\n5. Novartis\n6. Amazon\n7. Microsoft\n8. HCL Technologies\n9. General Electric\n10. Capgemini\n11. WellsFargo\n12. Genpact\n13. Headstrong\n14. ADP\n15. Google\n16. Oracle\n17. Cybage\n18. Citrix Systems\n19. wipro\n20. Thomson Reuters\n21. DE Shaw\n22. Salesforce\n23. Dell\n24. CommVault\n25. CA Technologies\n26. Qualcomm\n27. Cognizant\n28. CGI"
+        
+      ]
+    },
+    {
+      "tag": "CMR",
+      "patterns": [
+        "CMR"
+
+      ],
+      "responses": [
+        "https://cmrcet.ac.in/aboutus/"
+        
+      ]
+    },
+    {
+      "tag": "CCA",
+      "patterns": [
+        "CCA"
+
+      ],
+      "responses": [
+        "1.Clubs (CLUBS)\n2.Sports (SPORTS)\n3.Women protection cell (WPC)\n4.Anti-Raging cell (ARC)"
+        
+      ]
+    },
+    {
+      "tag": "CLUBS",
+      "patterns": [
+        "CLUBS"
+
+      ],
+      "responses": [
+        "EVENT MANAGEMENT CLUB\nPHOTOGRAPHY CLUB\nCMR TALKIES CLUB\nMUSIC CLUB\nDANCE CLUB\nCODING CLUB\nCYBER SECURITY CLUB\nSPORTS CLUB\nCIRCUITRONICS CLUB\nANDROID APPLICATION"
+        
+      ]
+    },
+    {
+      "tag": "SPORTS",
+      "patterns": [
+        "SPORTS"
+
+      ],
+      "responses": [
+        "Sports Facilities Out Door:\n400 m Standard Track\nFootball Grounds\nCricket Grounds\nHand Ball Basketball court\nVolleyball courts\nThrow Ball\nKho Kho Fields and Kabbadi Court.\n\nSports Facilities In-Door:\nCarroms\nChess\nTable Tennis"
+        
+      ]
+    },
+    {
+      "tag": "WPC",
+      "patterns": [
+        "WPC"
+
+      ],
+      "responses": [
+        "https://cmrcet.ac.in/women-protection-cell/"
+        
+      ]
+    },
+    {
+      "tag": "ARC",
+      "patterns": [
+        "ARC"
+
+      ],
+      "responses": [
+        "https://cmrcet.ac.in/anti-ragging/"
+        
+      ]
+    },
+    {
+      "tag": "ACD",
+      "patterns": [
+        "ACD"
+
+      ],
+      "responses": [
+        "1.Courses and Intake(CAI)\n2.Admission procedure(AP)\n3.Comittee(C)\n4.Fee Structure And Pay fee(FEE) \n5.Scholarships (SSAA) \n6.Awards (AWARDS)\n7.Facilities for CpWD(FAC)\n"
+        
+      ]
+    },
+    {
+      "tag": "CAI",
+      "patterns": [
+        "CAI"
+
+      ],
+       "responses": [
+              "1.CSE\n2.ECE\n3.EEE\n4.MECH\n5.CIVIL"
+      ]
+    },
+   
+   
+    {
+      "tag": "AP",
+      "patterns": [
+        "AP"
+
+      ],
+       "responses": [
+        "ADMISSION PROCEDURE\nEligibility Criteria for admission of UG Programme:\nLast Year 2019-20 EAMCET CUTOFF RANK  CMR College of Engineering & Technology is amongst the most competitive colleges when it comes to the admissions. The following is the criteria for the admission:\n70% Admissions are taken under Convener Quota.\nTo seek admission into first year of four-year B.Tech course in any branch, he/she must satisfy the following requirements:\nA student must have passed the Intermediate Examination of the Board of Intermediate Education,   Telangana with Mathematics, Physics and Chemistry as optional subjects, or any other examination recognized by the Government of Telangana as its equivalen\nAll the eligible candidates for admission into First Year shall have to qualify in the EAMCET Examination conducted by the Govt. of Telangana. The candidates will be admitted by EAMCET Convener strictly in accordance with the rank secured at the Entrance Examination and keeping the rules applicable in view, regarding the reservation of seats of various categories of candidates\n MANAGEMENT QUOTA\n30% of the total seats will be considered under Management Quota.To seek admission under Management Quota, he/she must satisfy the following requirements.\nA student should either have obtained a rank or should have secured a minimum aggregate percentage of 50% in group subjects (Maths, Physics and Chemistry) in the Intermediate Examination of the Board of Intermediate Education, Government of Telangana or any other examination recognized by the Government of Telangana as its equivalent.\n30% of the total seats will be considered under Management Quota.\nFor Notification of B category : CLICK HERE!\nFor Application Form of B category : CLICK HERE!\nNote:No reservation based or any other concession will be given under Management Quota.\nThe following is EAMCET counselling code which might be useful for the students applying for the college:\nCMR College of Engineering & Technology, EAMCET counselling code: CMRK\nM.TECH – Eligibility Requirements:\nA Bachelor’s degree in Engineering/Technology of Any Recognized University in the concerned discipline.\nAMIE/AMIETE or similar qualifications recognized by UPSC as equivalent to B.E./B.Tech.\nA student should either have obtained a rank or should have secured a minimum aggregate percentage of 50% in group subjects (Maths, Physics and Chemistry) in the Intermediate Examination of the Board of Intermediate Education, Government of Telangana or any other examination recognized by the Government of Telangana as its equivalent.\nValid GATE Score obtained in the GATE Examination.\nApart from requirements of qualifications as stated in the above, the admissions of sponsored candidates shall be taken.\nThe number of Sponsored candidates shall not be more than two in each specialization and not more than five in each department.\nThese seats are considered as supernumerary.\nHe / She must be permanent employee with the sponsoring agency for at least (2) years, after obtaining the qualifying degree.\nThe sponsoring agency must be a Government establishment or a public-sector undertaking, or a reputed private undertaking.\nThe sponsoring agency shall-certify that the candidates will be granted leave for pursuing the M.TECH. Full-Time course.\nThe candidates should satisfy local/non-local status requirement as laid down in the TS Educational institutions (Regulation of Admissions) Order 1974 as amended from time to time.\nM.B.A – Eligibility Requirements:\nA candidate seeking admission into Two year MBA programme must satisfy the following criteria:\nA pass in bachelor’s degree in any field with 45% marks in aggregate.\nMust have qualified in Integrated Common Entrance Test (ICET) conducted by TS State Council of Higher Education, Govt of TS.\nThe candidates should satisfy local/non-local status requirement as laid down in the TS Educational institutions (Regulation of Admissions) Order 1974 as amended from time to time.\nThe candidates will be admitted strictly in accordance with the merit secured at the ICET.\nThe Convener admits 70% of the intake to the MCA program based on the ICET rank.\nThe Management admits the remaining 30% under Management and NRI quota.\n "
+      ]
+    },
+    {
+      "tag": "C",
+      "patterns": [
+        "C"
+
+      ],
+      "responses": [
+       "COMMITTEES\nAnti-Ragging Committee\nBoys Hostel Committee\nCanteen Committee\nCommittee for SC/ST\nExamination Committee\nGrievance Redressal Committee\nGirls Hostel Committee\nICT/LMS Committee\nIT Committee\nLibrary Committee\nLanguage Lab committee\nMentor Mentee Committee\nNSS Committee\nNCC Committee\nParent Teacher Association(PTA)\n\nCELLS : \nBridge Course Cell\nEqual Opportunity Centre\nFDP Cell\nLadies Waiting Hall\nMinority Cell\nStudent Counseling Centre\nWoman Empowerment Cell\nYoga & Meditation Cell\n"  
+      ]
+    },
+    {
+      "tag": "FEE",
+      "patterns": [
+        "FEE"
+
+      ],
+      "responses": [
+        " TUITION FEE\nBeneficiary Name : CMR College of Engineering and Technology\nBank Name : HDFC BANK\nBranch : Medchal Branch\nAccount No : 16408640000031\nIFSC Code : HDFC0001640\nMICR Code:500240039\nSwift Code : HDFCINBB\nOnline payment Link : PAY FEE HERE\n"
+        
+      ]
+    },
+    {
+      "tag": "SSAA",
+      "patterns": [
+        "SSAA"
+
+      ],
+      "responses": [
+        "SCHOLARSHIPS\nThe College has been prompt and generous in recognizing, appreciation and encouraging the meritorious students towards excellence in curricular and extracurricular activities. Special Cash Prizes are awarded to the students securing ranks and prizes in: Paper Presentation in Symposia / Conference, Quiz etc,. Cash Prizes, Certificate of Appreciation and medals are awarded for the Students securing first, second and third rank in every year in their respective examinations.\n\nThe following awards are given to students on the eve of Annual Day every year.Cash prize for meritorious Students in the respective of Every Branch/Course\n\n First Prize :Rs. 2500/- (1st Position in the Respective Department)\n\nSecond Prize :Rs. 2000/- (2nd Position in the Respective Department)\n\n Third Prize :Rs. 1500/- (3rd Position in the Respective Department)\n"
+      ]
+    },
+    {
+      "tag": "FAC",
+      "patterns": [
+        "FAC"
+
+      ],
+      "responses": [
+        "REFER THE LINK IN GOOGLE : https://cmrcet.ac.in/wp-content/uploads/2020/11/Facilities-for-CPwD.pdf"
+        
+      ]
+    },
+    {
+      "tag": "AWARDS",
+      "patterns": [
+        "AWARDS"
+    
+      ],
+       "responses": [
+             "ACCREDITATION AND CERTIFICATIONS\n    NIRF Ranked Institution\nNAAC Accredited with ‘A+’ Grade\nAccredited by NBA\nUGC Autonomous\nApproved by AICT\nAffiliated by JNTUH\nAAA+ by Career36\nAtal Ranking of Institutions on Innovation Achievements\n"
+      ]
+    }
+    
+  ]
+
+}
